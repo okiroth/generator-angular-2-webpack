@@ -1,14 +1,13 @@
 'use strict';
-//Require dependencies
+// Require dependencies
 var yeoman = require('yeoman-generator');
-var chalk = require('chalk');
-var yosay = require('yosay');
-
+// var chalk = require('chalk');
+// var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
-  //Configurations will be loaded here.
+  // Configurations will be loaded here.
 
-  prompting: function() {
+  prompting: function () {
     return this.prompt([{
       type: 'input',
       name: 'name',
@@ -19,15 +18,15 @@ module.exports = yeoman.Base.extend({
       name: 'TypeScript',
       message: 'Use TypeScript?',
       default: true
-    }]).then(function(answers) {
+    }]).then(function (answers) {
       this.answers = answers;
       this.log('app name', answers.name);
       this.log('cool feature', answers.TypeScript);
     }.bind(this));
   },
 
-  //Writing Logic here
-    writing: function() {
+  // Writing Logic here
+  writing: function () {
     console.log('writing!');
 
     this.fs.copyTpl(
@@ -37,5 +36,4 @@ module.exports = yeoman.Base.extend({
       }
     );
   }
-
 });
