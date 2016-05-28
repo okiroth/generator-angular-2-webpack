@@ -1,5 +1,7 @@
-# generator-angular-2-webpack [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Front-end projects with typescript, angular2 and webpack
+# generator-angular-2-webpack
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Basic structure for web apps with typescript, angular2 and webpack
 
 ## Installation
 
