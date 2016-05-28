@@ -1,7 +1,7 @@
 # generator-angular-2-webpack
 
 [![NPM version][npm-image]][npm-url]
-<!-- [![Build Status][travis-image]][travis-url] -->
+[![Build Status][travis-image]][travis-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 > Basic structure for web apps with typescript, angular2 and webpack
 
@@ -34,7 +34,7 @@ MIT © [ivan]()
 
 [npm-image]: https://badge.fury.io/js/generator-angular-2-webpack.svg
 [npm-url]: https://npmjs.org/package/generator-angular-2-webpack
-[travis-image]: https://travis-ci.org/fermi2n/generator-angular-2-webpack.svg?branch=master
-[travis-url]: https://travis-ci.org/fermi2n/generator-angular-2-webpack
-[daviddm-image]: https://david-dm.org/fermi2n/generator-angular-2-webpack.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/fermi2n/generator-angular-2-webpack
+[travis-image]: https://travis-ci.org/bravealdus/generator-angular-2-webpack.svg?branch=master
+[travis-url]: https://travis-ci.org/bravealdus/generator-angular-2-webpack
+[daviddm-image]: https://david-dm.org/bravealdus/generator-angular-2-webpack.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/bravealdus/generator-angular-2-webpack
