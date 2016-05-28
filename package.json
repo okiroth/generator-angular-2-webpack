@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-2-webpack",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Front-end projects with typescript, angular2 and webpack",
   "homepage": "",
   "author": {
@@ -16,7 +16,9 @@
     "yeoman-generator"
   ],
   "dependencies": {
-
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
