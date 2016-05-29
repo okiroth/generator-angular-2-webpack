@@ -1,10 +1,10 @@
 {
   "name": "generator-angular-2-webpack",
-  "version": "0.0.8",
+  "version": "0.1.1",
   "description": "Front-end projects with typescript, angular2 and webpack",
   "homepage": "",
   "author": {
-    "name": "brave.aldus",
+    "name": "Ivan Roth",
     "email": "brave.aldus@gmail.com",
     "url": ""
   },

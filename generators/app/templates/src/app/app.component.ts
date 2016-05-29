@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../../public/css/global.css';
+import '../styles/css/global.css';
 
 import { ButtonTimerComponent } from './components/example-base-component/button-timer.component';
 
