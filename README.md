@@ -20,6 +20,20 @@ Then generate your new project:
 yo angular-2-webpack
 ```
 
+Then generate a component:
+
+```bash
+yo angular-2-webpack:component
+(example name: contact-list)
+```
+
+Then generate a service:
+
+```bash
+yo angular-2-webpack:service
+(example name: github-connection)
+```
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
