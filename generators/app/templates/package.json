@@ -1,6 +1,6 @@
 {
   "name": "<%= name %>",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A webpack starter for angular 2",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
@@ -10,6 +10,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "core-js": "2.4.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12",
     "@angular/common": "2.0.0-rc.1",
     "@angular/compiler": "2.0.0-rc.1",
     "@angular/core": "2.0.0-rc.1",
@@ -17,28 +21,23 @@
     "@angular/platform-browser": "2.0.0-rc.1",
     "@angular/platform-browser-dynamic": "2.0.0-rc.1",
     "@angular/router-deprecated": "2.0.0-rc.1",
-    "bootstrap": "^4.0.0-alpha.2",
-    "core-js": "^2.4.0",
-    "jquery": "^2.2.4",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.6",
-    "zone.js": "0.6.12"
+    "bootstrap": "^4.0.0-alpha.2"
   },
   "devDependencies": {
-    "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.5",
-    "html-loader": "^0.4.3",
-    "html-webpack-plugin": "^2.15.0",
-    "null-loader": "^0.1.1",
-    "raw-loader": "^0.5.1",
-    "style-loader": "^0.13.1",
-    "ts-loader": "^0.8.1",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.12",
-    "webpack": "^1.12.14",
-    "webpack-cleanup-plugin": "^0.2.0",
-    "webpack-dev-server": "^1.14.1",
-    "webpack-merge": "^0.9.0"
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "null-loader": "latest",
+    "raw-loader": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "typings": "latest",
+    "webpack": "latest",
+    "webpack-cleanup-plugin": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "latest"
   }
 }

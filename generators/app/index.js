@@ -23,4 +23,5 @@ module.exports = yeoman.Base.extend({
       }
     );
   }
+
 });

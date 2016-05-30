@@ -1,6 +1,6 @@
 {
   "compileOnSave": false,
-  
+
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -15,6 +15,6 @@
   "exclude": [
     "node_modules",
     "typings/main",
-    "typings/main.d.ts"
+    "typings/main/main.d.ts"
   ]
 }
